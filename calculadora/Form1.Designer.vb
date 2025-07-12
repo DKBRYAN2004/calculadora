@@ -39,6 +39,7 @@ Partial Class Form1
         btnDividir = New Button()
         btnRestar = New Button()
         btnMultiplicar = New Button()
+        Encender = New Button()
         SuspendLayout()
         ' 
         ' Button1
@@ -211,6 +212,15 @@ Partial Class Form1
         btnMultiplicar.TabIndex = 16
         btnMultiplicar.Text = "*"
         btnMultiplicar.UseVisualStyleBackColor = True
+        ' 
+        ' Encender
+        ' 
+        Encender.Location = New Point(15, 43)
+        Encender.Name = "Encender"
+        Encender.Size = New Size(75, 23)
+        Encender.TabIndex = 17
+        Encender.Text = "Encender"
+        Encender.UseVisualStyleBackColor = True
         ' 
         ' Form1
         ' 
