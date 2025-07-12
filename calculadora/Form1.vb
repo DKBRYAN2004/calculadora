@@ -67,4 +67,14 @@
             txtDisplay.Text = pantalla
         End If
     End Sub
+
+    Private Sub btnRestar_Click(sender As Object, e As EventArgs) Handles btnRestar.Click
+        If encendido Then
+            operacion = 2
+            numero1 = Double.Parse(pantalla)
+            pantalla = "0"
+        End If
+        txtDisplay.Text = pantalla
+    End Sub
+
 End Class
