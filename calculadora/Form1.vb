@@ -58,13 +58,15 @@
             End If
 
             If operacion = 2 Then
-            resultado = numero1 - numero2
+                resultado = numero1 - numero2
             End If
-    
+
             If operacion = 3 Then
-            resultado = numero1 * numero2
+                resultado = numero1 * numero2
             End If
-            
+            If operacion = 4 Then
+                resultado = numero1 / numero2
+            End If
             pantalla = resultado.ToString()
             txtDisplay.Text = pantalla
         End If
@@ -106,9 +108,13 @@
         txtDisplay.Text = pantalla
     End Sub
 
+    Private Sub btnDividir_Click(sender As Object, e As EventArgs) Handles btnDividir.Click
 
-
-   
-
-
+        If encendido Then
+            operacion = 4
+            numero1 = Double.Parse(pantalla)
+            pantalla = "0"
+        End If
+        txtDisplay.Text = pantalla
+    End Sub
 End Class
