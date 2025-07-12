@@ -69,7 +69,6 @@
     End Sub
 
 
-
     Private Sub btnRestar_Click(sender As Object, e As EventArgs) Handles btnRestar.Click
         If operacion = 2 Then
             resultado = numero1 - numero2
@@ -81,6 +80,7 @@
             pantalla = "0"
         End If
         txtDisplay.Text = pantalla
+
 
     End Sub
 
@@ -96,6 +96,10 @@
         End If
         txtDisplay.Text = pantalla
     End Sub
+
+
+
+   
 
 
 End Class
