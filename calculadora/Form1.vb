@@ -14,7 +14,7 @@
         txtDisplay.Text = pantalla
     End Sub
 
-    Private Sub btnEncender_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+    Private Sub btnEncender_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Encender.Click
         If encendido Then
             pantalla = ""
             encendido = False
@@ -28,7 +28,7 @@
         End If
     End Sub
 
-    Private Sub btnNumero_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click, Button2.Click, Button3.Click, Button5.Click, Button6.Click, Button7.Click, Button8.Click, Button9.Click, Button10.Click
+    Private Sub btnNumero_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click, Button2.Click, Button3.Click, Button4.Click, Button5.Click, Button6.Click, Button7.Click, Button8.Click, Button9.Click, Button10.Click
         Dim btn As Button = CType(sender, Button)
         If encendido Then
             If pantalla = "0" Then
@@ -56,6 +56,15 @@
             If operacion = 1 Then
                 resultado = numero1 + numero2
             End If
+
+            If operacion = 2 Then
+            resultado = numero1 - numero2
+            End If
+    
+            If operacion = 3 Then
+            resultado = numero1 * numero2
+            End If
+            
             pantalla = resultado.ToString()
             txtDisplay.Text = pantalla
         End If

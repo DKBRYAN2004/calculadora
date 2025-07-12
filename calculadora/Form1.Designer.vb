@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
@@ -39,124 +39,113 @@ Partial Class Form1
         btnDividir = New Button()
         btnRestar = New Button()
         btnMultiplicar = New Button()
+        Encender = New Button()
         SuspendLayout()
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(57, 96)
-        Button1.Margin = New Padding(3, 4, 3, 4)
+        Button1.Location = New Point(50, 72)
         Button1.Name = "Button1"
-        Button1.Size = New Size(46, 53)
+        Button1.Size = New Size(40, 40)
         Button1.TabIndex = 0
         Button1.Text = "1"
         Button1.UseVisualStyleBackColor = True
         ' 
         ' txtDisplay
         ' 
-        txtDisplay.Location = New Point(57, 27)
-        txtDisplay.Margin = New Padding(3, 4, 3, 4)
+        txtDisplay.Location = New Point(50, 14)
         txtDisplay.Name = "txtDisplay"
         txtDisplay.ReadOnly = True
-        txtDisplay.Size = New Size(228, 27)
+        txtDisplay.Size = New Size(200, 23)
         txtDisplay.TabIndex = 1
         txtDisplay.TextAlign = HorizontalAlignment.Right
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(110, 96)
-        Button2.Margin = New Padding(3, 4, 3, 4)
+        Button2.Location = New Point(96, 72)
         Button2.Name = "Button2"
-        Button2.Size = New Size(46, 53)
+        Button2.Size = New Size(40, 40)
         Button2.TabIndex = 2
         Button2.Text = "2"
         Button2.UseVisualStyleBackColor = True
         ' 
         ' Button3
         ' 
-        Button3.Location = New Point(57, 157)
-        Button3.Margin = New Padding(3, 4, 3, 4)
+        Button3.Location = New Point(50, 118)
         Button3.Name = "Button3"
-        Button3.Size = New Size(46, 53)
+        Button3.Size = New Size(40, 40)
         Button3.TabIndex = 3
         Button3.Text = "4"
         Button3.UseVisualStyleBackColor = True
         ' 
         ' Button4
         ' 
-        Button4.Location = New Point(162, 96)
-        Button4.Margin = New Padding(3, 4, 3, 4)
+        Button4.Location = New Point(142, 72)
         Button4.Name = "Button4"
-        Button4.Size = New Size(46, 53)
+        Button4.Size = New Size(40, 40)
         Button4.TabIndex = 4
         Button4.Text = "3"
         Button4.UseVisualStyleBackColor = True
         ' 
         ' Button5
         ' 
-        Button5.Location = New Point(110, 157)
-        Button5.Margin = New Padding(3, 4, 3, 4)
+        Button5.Location = New Point(96, 118)
         Button5.Name = "Button5"
-        Button5.Size = New Size(46, 53)
+        Button5.Size = New Size(40, 40)
         Button5.TabIndex = 5
         Button5.Text = "5"
         Button5.UseVisualStyleBackColor = True
         ' 
         ' Button6
         ' 
-        Button6.Location = New Point(162, 157)
-        Button6.Margin = New Padding(3, 4, 3, 4)
+        Button6.Location = New Point(142, 118)
         Button6.Name = "Button6"
-        Button6.Size = New Size(46, 53)
+        Button6.Size = New Size(40, 40)
         Button6.TabIndex = 6
         Button6.Text = "6"
         Button6.UseVisualStyleBackColor = True
         ' 
         ' Button7
         ' 
-        Button7.Location = New Point(57, 219)
-        Button7.Margin = New Padding(3, 4, 3, 4)
+        Button7.Location = New Point(50, 164)
         Button7.Name = "Button7"
-        Button7.Size = New Size(46, 53)
+        Button7.Size = New Size(40, 40)
         Button7.TabIndex = 7
         Button7.Text = "7"
         Button7.UseVisualStyleBackColor = True
         ' 
         ' Button8
         ' 
-        Button8.Location = New Point(110, 219)
-        Button8.Margin = New Padding(3, 4, 3, 4)
+        Button8.Location = New Point(96, 164)
         Button8.Name = "Button8"
-        Button8.Size = New Size(46, 53)
+        Button8.Size = New Size(40, 40)
         Button8.TabIndex = 8
         Button8.Text = "8"
         Button8.UseVisualStyleBackColor = True
         ' 
         ' Button9
         ' 
-        Button9.Location = New Point(162, 219)
-        Button9.Margin = New Padding(3, 4, 3, 4)
+        Button9.Location = New Point(142, 164)
         Button9.Name = "Button9"
-        Button9.Size = New Size(46, 53)
+        Button9.Size = New Size(40, 40)
         Button9.TabIndex = 9
         Button9.Text = "9"
         Button9.UseVisualStyleBackColor = True
         ' 
         ' Button10
         ' 
-        Button10.Location = New Point(110, 280)
-        Button10.Margin = New Padding(3, 4, 3, 4)
+        Button10.Location = New Point(96, 210)
         Button10.Name = "Button10"
-        Button10.Size = New Size(46, 53)
+        Button10.Size = New Size(40, 40)
         Button10.TabIndex = 10
         Button10.Text = "0"
         Button10.UseVisualStyleBackColor = True
         ' 
         ' btnLimpiar
         ' 
-        btnLimpiar.Location = New Point(57, 280)
-        btnLimpiar.Margin = New Padding(3, 4, 3, 4)
+        btnLimpiar.Location = New Point(50, 210)
         btnLimpiar.Name = "btnLimpiar"
-        btnLimpiar.Size = New Size(46, 53)
+        btnLimpiar.Size = New Size(40, 40)
         btnLimpiar.TabIndex = 11
         btnLimpiar.Tag = ""
         btnLimpiar.Text = "c"
@@ -164,59 +153,64 @@ Partial Class Form1
         ' 
         ' btnSumar
         ' 
-        btnSumar.Location = New Point(230, 96)
-        btnSumar.Margin = New Padding(3, 4, 3, 4)
+        btnSumar.Location = New Point(201, 72)
         btnSumar.Name = "btnSumar"
-        btnSumar.Size = New Size(46, 53)
+        btnSumar.Size = New Size(40, 40)
         btnSumar.TabIndex = 12
         btnSumar.Text = "+"
         btnSumar.UseVisualStyleBackColor = True
         ' 
         ' btnIgual
         ' 
-        btnIgual.Location = New Point(230, 280)
-        btnIgual.Margin = New Padding(3, 4, 3, 4)
+        btnIgual.Location = New Point(201, 210)
         btnIgual.Name = "btnIgual"
-        btnIgual.Size = New Size(46, 53)
+        btnIgual.Size = New Size(40, 40)
         btnIgual.TabIndex = 13
         btnIgual.Text = "="
         btnIgual.UseVisualStyleBackColor = True
         ' 
         ' btnDividir
         ' 
-        btnDividir.Location = New Point(162, 280)
-        btnDividir.Margin = New Padding(3, 4, 3, 4)
+        btnDividir.Location = New Point(142, 210)
         btnDividir.Name = "btnDividir"
-        btnDividir.Size = New Size(46, 53)
+        btnDividir.Size = New Size(40, 40)
         btnDividir.TabIndex = 14
         btnDividir.Text = "/"
         btnDividir.UseVisualStyleBackColor = True
         ' 
         ' btnRestar
         ' 
-        btnRestar.Location = New Point(230, 157)
-        btnRestar.Margin = New Padding(3, 4, 3, 4)
+        btnRestar.Location = New Point(201, 118)
         btnRestar.Name = "btnRestar"
-        btnRestar.Size = New Size(46, 53)
+        btnRestar.Size = New Size(40, 40)
         btnRestar.TabIndex = 15
         btnRestar.Text = "-"
         btnRestar.UseVisualStyleBackColor = True
         ' 
         ' btnMultiplicar
         ' 
-        btnMultiplicar.Location = New Point(230, 219)
-        btnMultiplicar.Margin = New Padding(3, 4, 3, 4)
+        btnMultiplicar.Location = New Point(201, 164)
         btnMultiplicar.Name = "btnMultiplicar"
-        btnMultiplicar.Size = New Size(46, 53)
+        btnMultiplicar.Size = New Size(40, 40)
         btnMultiplicar.TabIndex = 16
         btnMultiplicar.Text = "*"
         btnMultiplicar.UseVisualStyleBackColor = True
         ' 
+        ' Encender
+        ' 
+        Encender.Location = New Point(15, 43)
+        Encender.Name = "Encender"
+        Encender.Size = New Size(75, 23)
+        Encender.TabIndex = 17
+        Encender.Text = "Encender"
+        Encender.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(325, 481)
+        ClientSize = New Size(284, 361)
+        Controls.Add(Encender)
         Controls.Add(btnMultiplicar)
         Controls.Add(btnRestar)
         Controls.Add(btnDividir)
@@ -234,7 +228,6 @@ Partial Class Form1
         Controls.Add(Button2)
         Controls.Add(txtDisplay)
         Controls.Add(Button1)
-        Margin = New Padding(3, 4, 3, 4)
         Name = "Form1"
         Text = "Form1"
         ResumeLayout(False)
@@ -258,5 +251,6 @@ Partial Class Form1
     Friend WithEvents btnIgual As Button
     Friend WithEvents btnSumar As Button
     Friend WithEvents btnDividir As Button
+    Friend WithEvents Encender As Button
 
 End Class
