@@ -69,6 +69,10 @@
     End Sub
 
     Private Sub btnRestar_Click(sender As Object, e As EventArgs) Handles btnRestar.Click
+        If operacion = 2 Then
+            resultado = numero1 - numero2
+        End If
+
         If encendido Then
             operacion = 2
             numero1 = Double.Parse(pantalla)
